@@ -24,5 +24,31 @@ namespace IIO13200_15S
         {
             InitializeComponent();
         }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void buttonCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            int width, height, frameWidth;
+
+            if (int.TryParse(txtWindowWidth.Text, out width) && int.TryParse(txtWindowHeight.Text, out height))
+            {
+                labelArea.Content = width * height;
+
+                if (int.TryParse(txtFrameWidth.Text, out frameWidth))
+                {
+                    labelFramePerim.Content = 2 * ((height + 2 * frameWidth) + (width + 2 * frameWidth));
+                    labelFrameArea.Content = ((height + 2 * frameWidth) * (width + 2 * frameWidth)) - (width * height);
+                }
+                else
+                {
+                    labelFramePerim.Content = labelFrameArea.Content = "Virhe!";
+                }
+            }
+            else labelArea.Content = labelFramePerim.Content = labelFrameArea.Content = "Virhe!";
+        }
     }
 }
