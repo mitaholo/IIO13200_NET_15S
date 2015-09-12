@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava2Lotto", "Tehtava2Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava1", "Tehtava1\Tehtava1.csproj", "{DC572534-13DB-440B-A2DF-AA86E7AA6F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava3", "Tehtava3\Tehtava3.csproj", "{7E62DB81-0713-4932-828D-811B626CEC95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC572534-13DB-440B-A2DF-AA86E7AA6F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC572534-13DB-440B-A2DF-AA86E7AA6F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC572534-13DB-440B-A2DF-AA86E7AA6F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E62DB81-0713-4932-828D-811B626CEC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E62DB81-0713-4932-828D-811B626CEC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E62DB81-0713-4932-828D-811B626CEC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E62DB81-0713-4932-828D-811B626CEC95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
