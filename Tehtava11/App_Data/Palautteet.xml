@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="yes"?>
+<palautteet>
+  <palaute>
+    <pvm>9.12.2015</pvm>
+    <tekija>Mikko Holopainen</tekija>
+    <opittu>Paljon Kaikkea</opittu>
+    <haluanoppia>Vähän jotain</haluanoppia>
+    <hyvaa>Moni asia</hyvaa>
+    <parannettavaa>Ei niin moni asia</parannettavaa>
+    <muuta>Ei ole</muuta>
+  </palaute>
+  <palaute>
+    <pvm>9.12.2014</pvm>
+    <tekija>Timo Holopainen</tekija>
+    <opittu>Ei mitään</opittu>
+    <haluanoppia>Kaikki</haluanoppia>
+    <hyvaa>Opetus</hyvaa>
+    <parannettavaa>Minä</parannettavaa>
+    <muuta></muuta>
+  </palaute>
+  <palaute>
+    <pvm>1.2.3456</pvm>
+    <tekija>Heimo Vesa</tekija>
+    <opittu>Insinööriyttä</opittu>
+    <haluanoppia>Elämänhallintaa</haluanoppia>
+    <hyvaa>Kaverit</hyvaa>
+    <parannettavaa>Viholliset</parannettavaa>
+    <muuta></muuta>
+  </palaute>
+</palautteet>
